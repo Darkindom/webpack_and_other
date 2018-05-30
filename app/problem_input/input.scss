@@ -1,0 +1,36 @@
+.inputBox {
+  background-color: #ccc;
+}
+
+.input1 {
+  margin: 100px 0;
+  border: 1px #000 solid;
+  width: 200px;
+  height: 80px;
+  font-size: 32px;
+  vertical-align: middle;
+  position: relative;
+  &::-webkit-input-placeholder {
+    font-size: 12px;
+  } 
+  &:-moz-placeholder {
+    font-size: 12px;
+  } 
+  &::-moz-placeholder {
+    font-size: 12px;    
+  } 
+  &:-ms-input-placeholder {
+    font-size: 12px;
+  }
+}
+
+.input2 {
+  margin: 100px 0;
+  border: 1px #000 solid;
+  width: 200px;
+  height: 80px;
+  font-size: 12px;
+}
+.sizeOld {
+  font-size: 32px;
+}
