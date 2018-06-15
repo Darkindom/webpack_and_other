@@ -14,6 +14,7 @@ class ProInput extends Component {
         <div>
           <input type='tel' className={styles.input1} placeholder='HeHEhaHA' />
           <input type='tel' className={styles.input2} placeholder='HeHEhaHA' onChange={this.handleFontSize.bind(this)} />
+          <input type='tel' className={styles.input3} placeholder='HeHEhaHA' />
         </div>
       </div>
     )

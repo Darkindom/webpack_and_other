@@ -23,7 +23,9 @@
     font-size: 12px;
   }
 }
-
+.input1:placeholder-shown {
+  font-size: 12px;
+}
 .input2 {
   margin: 100px 0;
   border: 1px #000 solid;
@@ -31,6 +33,22 @@
   height: 80px;
   font-size: 12px;
 }
+
+.input3 {
+  margin: 100px 0;
+  border: 1px #000 solid;
+  width: 200px;
+  height: 80px;
+  font-size: 32px;
+  &::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: normal;
+  }
+}
+.input3:placeholder-shown {
+  font-size: 12px;
+}
+
 .sizeOld {
   font-size: 32px;
 }

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack",
-    "server": "webpack-dev-server ---open --host 0.0.0.0",
+    "server": "webpack-dev-server --color --open --host 0.0.0.0",
     "build": "flow-remove-types app/ -d lib/",
     "prepublish": "npm run build",
     "flow": "flow"
