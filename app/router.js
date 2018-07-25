@@ -8,6 +8,7 @@ import cssScroll from './css_scroll/scroll'
 
 class RouterMap extends Component {
   render () {
+    console.log('Hi')
     return (
       <Router>
         <div>
