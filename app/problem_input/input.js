@@ -12,9 +12,10 @@ class ProInput extends Component {
     return (
       <div className={styles.inputBox}>
         <div>
-          <input type='tel' className={styles.input1} placeholder='HeHEhaHA' />
-          <input type='tel' className={styles.input2} placeholder='HeHEhaHA' onChange={this.handleFontSize.bind(this)} />
-          <input type='tel' className={styles.input3} placeholder='HeHEhaHA' />
+          <input type='tel' className={styles.input1} placeholder='normal' />
+          <input type='tel' className={styles.input2} placeholder='::plcaeholder (blue)' onChange={this.handleFontSize.bind(this)} />
+          <input type='tel' className={styles.input3} placeholder='::plcaeholder blue and :placeholder-shown red' />
+          <input type='tel' className={styles.input4} placeholder=':plcaeholder-shown red' />
         </div>
       </div>
     )
