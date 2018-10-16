@@ -5,6 +5,7 @@ import Greeter from './Greeter'
 import ProInput from './problem_input/input'
 import ProFixed from './problem_positionFix/fixed'
 import cssScroll from './css_scroll/scroll'
+import testPage from './test_page'
 
 class RouterMap extends Component {
   render () {
@@ -22,6 +23,9 @@ class RouterMap extends Component {
 
           {/* css实现滚动条 */}
           <Route path='/scroll' component={cssScroll} />
+
+          {/* 试验田 */}
+          <Route path='/test' component={testPage} />
         </div>
       </Router>
     )

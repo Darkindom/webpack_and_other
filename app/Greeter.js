@@ -37,6 +37,11 @@ class Greeter extends Component {
     return (
       <div className={styles.root}>
         {config.greetText}
+        <div className={styles.cssOrder}>
+          <p id={styles.idP}>the color by id</p>
+          <p className={styles.classP}>the color by class</p>
+          <p>the color without id or class</p>
+        </div>
       </div>
     )
   }
